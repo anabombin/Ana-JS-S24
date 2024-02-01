@@ -1,0 +1,153 @@
+@media screen and (min-width: 320px) {
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;     
+        border: 1px soli d purple;
+        font-family: 'Roboto Mono', monospace;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0px;
+    }
+    
+    h4 {
+        color: rgb(188, 190, 190);
+        font-size: 9px;
+    }
+    
+    .page-content {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .side-nav {
+        display: flex;
+        height: 90vh;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .project-content {
+        width: 70%;
+    }
+    
+    h1 {
+        font-size: 60px;
+    }
+    
+    .project {
+        border-bottom: 2px solid black;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .project:hover {
+        height: 15vh;
+    }
+
+    .project-name {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .menu {
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    }
+
+
+
+
+
+
+
+@media screen and (min-width: 480px) {
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+    border: 1px soli d purple;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+h4 {
+    color: rgb(188, 190, 190);
+    font-size: 15px;
+}
+
+.page-content {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.side-nav {
+    display: flex;
+    width: 30%; 
+    height: 90vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-content {
+    width: 70%;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.project {
+    border-bottom: 2px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.project:hover {
+    height: 15vh;
+}
+
+.project-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+}
+
+
+
+
+
+
+
+
