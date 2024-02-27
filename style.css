@@ -64,6 +64,20 @@
         flex-direction: column;
         justify-content: space-between;
     }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+        margin: 3% 0%;
+    }
+    
+    .project-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     
     }
 
@@ -79,7 +93,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;     
-    border: 1px soli d purple;
+    bor der: 1px solid purple;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -140,6 +154,27 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+p a {
+    text-decoration: none;
+    color: grey;
+}
+
+p a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+iframe {
+    width: 95%;
+    height: 100%;
+}
+
+.project-content {
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
 }
